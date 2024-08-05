@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="./app.js"></script>
+  <style>
+    .navbar {
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.144);
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-color sticky-top navbar-custom-height">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./images/Asset 1.png" alt="Brand Logo" height="50px" width="150px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-weight: bold;">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Sports</a>
+            <ul class="dropdown-menu">
+              <h6 class="dropdown-header">Team Sports</h6>
+              <a class="dropdown-item" href="./football_art.html" data-sport="football">Football</a>
+              <a class="dropdown-item" href="./circket.html" data-sport="Cricket">Cricket</a>
+              <a class="dropdown-item" href="./Volleyball.html" data-sport="volleyball">Volleyball</a>
+              <a class="dropdown-item" href="./badminton.html" data-sport="badminton">Badminton</a>
+              <a class="dropdown-item" href="./basketball.html" data-sport="basketball">Basketball</a>
+              <a class="dropdown-item" href="./baseball.html" data-sport="baseball">Baseball</a>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header">Individual Sports</h6>
+              <a class="dropdown-item" href="./judo.html" data-sport="judo">Judo</a>
+              <a class="dropdown-item" href="./tennis.html" data-sport="tennis">Tennis</a>
+              <a class="dropdown-item" href="./motorcycle_race.html" data-sport="motorcycle-racing">Motorcycle
+                Racing</a>
+              <a class="dropdown-item" href="./Golf.html" data-sport="golf">Golf</a>
+              <a class="dropdown-item" href="./Chess.html" data-sport="chess">Chess</a>
+              <a class="dropdown-item" href="./Billiards.html" data-sport="billiards">Billiards</a>
+              <a class="dropdown-item" href="./swimming.html" data-sport="swimming">Swimming</a>
+              <a class="dropdown-item" href="./Athletics.html" data-sport="athletics">Athletics</a>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news" >News & Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feedback" >Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-------------------------------------header-------------------------------------->
+
+  <div class="carousel slide" id="check" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button class="active" data-bs-target="#check" data-bs-slide-to="0"></button>
+      <button class="active" data-bs-target="#check" data-bs-slide-to="1"></button>
+      <button class="active" data-bs-target="#check" data-bs-slide-to="2"></button>
+    </div>
+    <button class="carousel-control-prev" data-bs-target='#check' data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target='#check' data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="./images/circket_.png" alt="" class="d-block w-100">
+        <div class="carousel-caption">
+          <h1> CIRCKET </h1>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="./images/3RD BG.png" alt="" class="d-block w-100">
+        <div class="carousel-caption">
+          <h1> FOOTBALL </h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="./images/hero_bg_4_cut.png" alt="" class="d-block w-100">
+        <div class="carousel-caption">
+          <h1> MANY MORE SPORTS </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------------sports-------------------------------------->
+
+
+  <section style="background-color: #eeeeee;">
+    <div class="container text-center common-title fw-bolder">
+      <h2 class="common-heading" style="padding-top: 50px; font-size: 80px;">Sports</h2>
+      <hr class="w-25 mx-auto" style="color: #00167a; height: 5px; opacity: 100%;">
+    </div>
+
+    <div class="sports d-flex justify-content-center" style="background-color: #0c003d; min-height: 100vh;">
+      <div class="site-section pt-0 feature-blocks-1" data-aos="fade" data-aos-delay="100">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/1918.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">JUDO</h2>
+                  <p>Judo, a martial art and combat sport, is renowned for its emphasis on technique, leverage, and the
+                    principle of maximum efficiency.......</p>
+                  <p>Click to read detail info about judo here!</p>
+                  <p class="mb-0"><a href="./judo.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/img_2.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">FOOTBALL</h2>
+                  <p>Football, known as soccer in some regions, is not just a sport but a global phenomenon that unites
+                    millions of fans and players worldwide.....</p>
+                  <p>Click to read detail info about Football here!</p>
+                  <p class="mb-0"><a href="./football_art.html"
+                      class="btn btn-primary btn-sm px-4 py-2 rounded-20 ">Read More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/21890.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">TENNIS</h2>
+                  <p>Tennis is a dynamic and globally celebrated sport that combines physical prowess, strategic
+                    thinking, and mental resilience.</p>
+                  <p>Click to read detail info about tennis here!</p>
+                  <p class="mb-0"><a href="./tennis.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('./images/basket_card.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">BASKETBALL</h2>
+                  <p>Basketball is a fast-paced sport that requires skill, endurance, and teamwork to outscore the
+                    opposition and claim victory on the court.......</p>
+                  <p>Click to read detail info about basketball here!</p>
+                  <p class="mb-0"><a href="./basketball.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/MOTOR.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">MOTORCYCLE RACE</h2>
+                  <p>Motorcycle racing is a thrilling sport that combines speed, skill, and daring feats on two wheels.
+                    From the high-octane excitement .....</p>
+                  <p>Click to read detail info about motorcycle race here!</p>
+                  <p class="mb-0"><a href="./motorcycle_race.html"
+                      class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/2148687603.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">SWIMMING</h2>
+                  <p>Swimming is a competitive and recreational activity that promotes physical fitness, relaxation, and
+                    a connection to water.......</p>
+                  <p>Click to read detail info about swimming here!</p>
+                  <p class="mb-0"><a href="./swimming.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/GOLF.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">GOLF</h2>
+                  <p>Golf, often referred to as the "gentleman's game," is a sport that combines precision, technique,
+                    and strategy. Played on expansive.......</p>
+                  <p>Click to read detail info about golf here!</p>
+                  <p class="mb-0"><a href="./Golf.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/CHESS.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">CHESS</h2>
+                  <p>Chess is a timeless board game that combines strategy, intellect, and foresight. Played by millions
+                    worldwide, chess transcends cultures.....</p>
+                  <p>Click to read detail info about chess here!</p>
+                  <p class="mb-0"><a href="./Chess.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/POOL.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">BILLIARDS</h2>
+                  <p>Billiards, also known as cue sports, encompasses a variety of games played on a billiard table with
+                    cue sticks and billiard balls.......</p>
+                  <p>Click to read detail info about billiards here!</p>
+                  <p class="mb-0"><a href="./Billiards.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/BADMINTON.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">BADMINTON</h2>
+                  <p>Badminton, a sport that combines speed, strategy, and skill, is enjoyed by millions around the
+                    globe. Its roots date back to ancient civilizations.......</p>
+                  <p>Click to read detail info about badminton here!</p>
+                  <p class="mb-0"><a href="./badminton.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg" style="background-image: url('images/19184.jpg');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">ATHLETICS</h2>
+                  <p>Athletics, often referred to as track and field, is a collection of sporting events that showcase
+                    the pinnacle of human physical prowess.....</p>
+                  <p>Click to read detail info about athletics here!</p>
+                  <p class="mb-0"><a href="./Athletics.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+              <div class="p-3 p-md-5 feature-block-1 bg"
+                style="background-image: url('images/circket-transformed.png');">
+                <div class="text d-flex flex-column align-items-center justify-content-center">
+                  <h2 class="h5 text-white" style="font-weight: bolder;">CRICKET</h2>
+                  <p>Cricket is a sport steeped in tradition and rich history, known for its gentlemanly conduct and
+                    strategic depth. Originating in England in the 16th century.......</p>
+                  <p>Click to read detail info about cricket here!</p>
+                  <p class="mb-0"><a href="./circket.html" class="btn btn-primary btn-sm px-4 py-2 rounded-20">Read
+                      More</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-------------------------------------news & article-------------------------------------->
+
+
+  <section id="news" class="services sections-bg " style="background-color: #d3d3d3; ">
+    <div class="container text-center common-title fw-bolder">
+      <h2 class="common-heading" style=" padding-top: 50px; font-size: 70px;">
+        NEWS ARTICLES</h2>
+      <hr class="w-25 mx-auto" style="color: #00167a; height: 5px; opacity: 100%; ">
+    </div>
+    <div class="container mt-5 pt-500px">
+      <div class="row mb-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card" style="background-image: url('images/ronaldo_news.png');">
+            <div class="card-body position-relative">
+              <h1 class="card-title">Cristiano Ronaldo drops retirement</h1>
+              <hr class="w-75 mx-auto" style="color: #00167a; height: 3px; opacity: 100%;">
+              <p class="card-text">Cristiano Ronaldo is ready to hang his boots in the European Championship once he
+                wraps up the ongoing edition of the tournament which is being held in Germany.</p>
+              <a href="https://www.thenews.com.pk/latest/1205940-cristiano-ronaldo-drops-retirement-bombshell-about-his-euros-career"
+                target="_blank"><button class="btn btn-primary readmore-btn">Read more</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card" style="background-image: url('images/messi_news.png');">
+            <div class="card-body position-relative">
+              <h1 class="card-title">Lionel Messi a doubt for Argentina</h1>
+              <hr class="w-75 mx-auto" style="color:#00167a; height: 3px; opacity: 100%;">
+              <p class="card-text">Renowned soccer player Lionel Messi's fitness remains in doubt ahead of Thursday's
+                Copa America quarter-final with Ecuador with coach Lionel Scaloni. </p>
+              <a href="https://www.thenews.com.pk/latest/1206274-lionel-messi-a-doubt-for-argentina-ahead-of-copa-quarter-final"
+                target="_blank"><button class="btn btn-primary readmore-btn">Read more</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card" style="background-image: url('images/india_worldcup.png');">
+            <div class="card-body position-relative">
+              <h1 class="card-title">T20 World Cup: These teams have made it to 2026 edition</h1>
+              <hr class="w-75 mx-auto" style="color:#00167a; height: 3px; opacity: 100%;">
+              <p class="card-text">The International Cricket Council (ICC) has named 12 teams for the next edition of
+                the T20 World Cup which is set to take place in 2026.</p>
+              <a href="https://www.thenews.com.pk/latest/1205653-t20-world-cup-these-teams-have-made-it-to-2026-edition"
+                target="_blank"><button class="btn btn-primary readmore-btn">Read more</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="padding-bottom:70px ;">
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card" style="background-image: url('images/euro_cup.png');">
+            <div class="card-body position-relative">
+              <h1 class="card-title">Euro 2024: Cristiano Ronaldo leads Portugal to quarter-finals</h1>
+              <hr class="w-75 mx-auto" style="color: #00167a; height: 3px; opacity: 100%;">
+              <p class="card-text">Cristiano Ronaldo was left in tears after his goal was blocked during extra time,
+                however, Portugal have still managed to make their way to the quarterfinals of Euro 2024.</p>
+              <a href="https://www.thenews.com.pk/latest/1205645-euro-2024-cristiano-ronaldo-leads-portugal-to-quarter-finals"
+                target="_blank"><button class="btn btn-primary readmore-btn">Read more</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card" style="background-image: url('images/italy_news.png');">
+            <div class="card-body position-relative">
+              <h1 class="card-title">Switzerland beat Italy to reach Euro 2024 quaterfinals</h1>
+              <hr class="w-75 mx-auto" style="color:#00167a; height: 3px; opacity: 100%;">
+              <p class="card-text">In a stunning victory, Switzerland defeated reigning champions Italy 2-0, pushing
+                them out of the Euro 2024.The Swiss team outplayed the two-time winners, etching their way to the
+                quarterfinals.</p>
+              <a href="https://www.thenews.com.pk/latest/1205060-switzerland-beat-italy-to-reach-euro-2024-quaterfinals"
+                target="_blank"><button class="btn btn-primary readmore-btn">Read more</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="news-card" style="background-image: url('images/japan_montain.png');">
+            <div class="card-body position-relative">
+              <h1 class="card-title">Japanese mountaineer dies after falling into crevasse on Spantik</h1>
+              <hr class="w-75 mx-auto" style="color:#00167a; height: 3px; opacity: 100%; ">
+              <p class="card-text">In a tragic incident, another Japanese climber, Onishi Hiroshi, lost his life after
+                falling into a crevasse on the 7,027-metre Spantik Peak, also known as Golden Peak in Gilgit-Baltistan’s
+                Nagar district.</p>
+              <a href="https://www.thenews.com.pk/latest/1206240-japanese-mountaineer-dies-after-falling-into-crevasse-on-spantik"
+                target="_blank"><button class="btn btn-primary readmore-btn">Read more</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------------about us-------------------------------------->
+
+  <section id="About" class="" style="background-color: #e6e5e5; padding-top: 50px; padding-bottom: 30px;">
+    <div class="container text-center common-title fw-bolder">
+      <h2 class="common-heading" style="font-size: 70px;">About Us</h2>
+      <hr class="w-25 mx-auto" style="background-color: #00167a; height: 5px; opacity: 100%;">
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h3>Welcome to SportsInfo.com by Infocom!</h3>
+          <p>Discover comprehensive sports news, stats, and analysis all in one place. We're dedicated to bringing you
+            the
+            latest and most reliable sports information. Stay tuned and explore the world of sports like never
+            before!</p>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 mt-5 mt-lg-0">
+          <div class="content">
+            <img src="images/Artwork.png" alt="Artwork" class="img-fluid" style="height: auto; width: 600px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------------guest book------------------------------------->
+ <div id="feedback" class="container mt-5" style="margin-bottom: 50px; padding-top: 50px;">
+    <h2>Feedback</h2>
+    <form id="guestbook-form" onsubmit="return check(event)">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" >
+        <small id="name-msg" style="color: red; font-size: 15px; padding: 8px;"></small>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" >
+        <small id="email-msg" style="color: red; font-size: 15px; padding: 8px;"></small>
+      </div>
+      <div class="form-group">
+        <label for="date">Date of Visit</label>
+        <input type="date" class="form-control" id="date" >
+        <br>
+      </div>
+      <div class="form-group">
+        <label for="comments">Comments</label>
+        <textarea class="form-control" id="comments" rows="3"></textarea>
+      </div>
+      <div class="form-group mb-3">
+        <label for="rating">Rating</label>
+        <div class="star-rating">
+          <input type="radio" name="rating" id="5-stars" value="5"><label for="5-stars">&#9733;</label>
+          <input type="radio" name="rating" id="4-stars" value="4"><label for="4-stars">&#9733;</label>
+          <input type="radio" name="rating" id="3-stars" value="3"><label for="3-stars">&#9733;</label>
+          <input type="radio" name="rating" id="2-stars" value="2"><label for="2-stars">&#9733;</label>
+          <input type="radio" name="rating" id="1-star" value="1"><label for="1-star">&#9733;</label>
+        </div>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="recommend">
+        <label class="form-check-label" for="recommend">Would you recommend this site to others?</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+
+  <!-------------------------------------footer------------------------------------->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="./index.html" class="logo d-flex align-items-center">
+            <span>Sportsinfo</span>
+          </a>
+          <p>Sports related information all available here</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://twitter.com/?lang=en" class="twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com" class="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com" class="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://pk.linkedin.com" class="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-6 footer-links" style="font-weight: bold;">
+          <h4>Sports Names</h4>
+          <ul>
+            <li><a href="./football_art.html" style="color: white;" target="_blank">Football</a></li>
+            <li><a href="./circket.html" style="color: white;" target="_blank" >Cricket</a></li>
+            <li><a href="./judo.html" style="color: white;" target="_blank" >Judo</a></li>
+            <li><a href="./tennis.html" style="color: white;"  target="_blank">Tennis</a></li>
+            <li><a href="./motorcycle_race.html" style="color: white;" target="_blank">Motorcycle Racing</a></li>
+            <li><a href="./Volleyball.html" style="color: white;" target="_blank" >Volleyball</a></li>
+            <li><a href="./Golf.html" style="color: white;" target="_blank" >Golf</a></li>
+            <li><a href="./Chess.html" style="color: white;" target="_blank" >Chess</a></li>
+            <li><a href="./Billiards.html" style="color: white;" target="_blank" >Billiards</a></li>
+            <li><a href="./badminton.html" style="color: white;" target="_blank" >Badminton</a></li>
+            <li><a href="./swimming.html" style="color: white;" target="_blank" >Swimming</a></li>
+            <li><a href="./Athletics.html" style="color: white;" target="_blank" >Athletics</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6 footer-links" style="font-weight: bold;">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="./index.html" style="color: white;">Home</a></li>
+            <li><a href="./about.html" style="color: white;">About us</a></li>
+            <li><a href="./feedback.html" style="color: white;">Feedback</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+            <strong>Phone:</strong> + 80-1234-5678<br>
+            <strong>Email:</strong> info@sportsinfo.com<br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
